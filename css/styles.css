@@ -1,3 +1,5 @@
+/* CSS for HTML tags */
+
 body {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -36,6 +38,22 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #8A0808;
+}
+
+.h2-home {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #e6edef;
+  line-height: 1.5;
+  margin: auto;
+}
+
+.photo-title-carousel {
+  width: 100%;
+  height: 290px;
+  border-radius: 1%;
+  border: 3px solid white;
 }
 
 .container-fluid {
@@ -93,14 +111,8 @@ a:hover {
   background-color: #8A0808;
 }
 
-.dark-button:hover {
-  background-color: #111328;
-  color: white;
-  border: 1px solid;
-}
-
 .bottom-container {
-  background-color: #111328;
+  background-color: #ff4c68;
   position: static;
   padding-bottom: 9px;
   padding-top: 24px;
@@ -125,7 +137,7 @@ a:hover {
 }
 
 #title {
-  background-color: #111328;
+  background-color: #ff4c68;
 }
 
 #features {
