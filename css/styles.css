@@ -1,0 +1,139 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-weight: bolder;
+  font-size: 4.5rem;
+  color: white;
+  line-height: 1.5;
+  margin: auto;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: auto;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #8A0808;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 63%;
+  margin: 0 9% 0 9%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.awards-icon {
+  color: #00A6C8;
+  margin-bottom: 1rem;
+}
+
+.awards-icon:hover {
+  color: #0093AE;
+  margin-bottom: 1rem;
+}
+
+.dark-button {
+  background-color: #8A0808;
+}
+
+.dark-button:hover {
+  background-color: #111328;
+  color: white;
+  border: 1px solid;
+}
+
+.bottom-container {
+  background-color: #111328;
+  position: static;
+  padding-bottom: 9px;
+  padding-top: 24px;
+  text-align: center;
+}
+
+.pages {
+  font-family: 'Ubuntu', sans-serif;
+  color: #C0C1C6;
+  line-height: 2;
+  margin: auto;
+  text-align: justify;
+}
+
+.paragraph-carousel {
+  font-family: 'Ubuntu', sans-serif;
+  color: #C0C1C6;
+  line-height: 2;
+  margin: auto;
+  text-align: justify;
+  padding: 9% 15% 9% 15%;
+}
+
+#title {
+  background-color: #111328;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+#copyright {
+  font-size: 11px;
+  color: white;
+  font-family: sans-serif;
+}
