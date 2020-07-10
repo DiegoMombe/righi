@@ -1,5 +1,4 @@
 /* CSS for HTML tags */
-
 body {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -23,6 +22,8 @@ h3 {
 
 p {
   color: #8f8f8f;
+  font-size: 21px;
+  text-align: center;
 }
 
 /* unvisited link */
@@ -37,14 +38,14 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #8A0808;
+  color: #db005f;
 }
 
 .h2-home {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bolder;
   font-size: 1.5rem;
-  color: #e6edef;
+  color: #d8d8d8;
   line-height: 1.5;
   margin: auto;
 }
@@ -72,6 +73,7 @@ a:hover {
 
 .nav-item {
   padding: 0 18px;
+  font-weight: bold;
 }
 
 .nav-link {
@@ -83,13 +85,8 @@ a:hover {
   color: white;
 }
 
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
-.title-image {
-  width: 63%;
-  margin: 0 9% 0 9%;
+.photo-title-carousel {
+  width: 100%;
 }
 
 .feature-box {
@@ -98,17 +95,13 @@ a:hover {
 }
 
 .awards-icon {
-  color: #00A6C8;
+  color: #ff4c68;
   margin-bottom: 1rem;
 }
 
 .awards-icon:hover {
-  color: #0093AE;
+  color: #db005f;
   margin-bottom: 1rem;
-}
-
-.dark-button {
-  background-color: #8A0808;
 }
 
 .bottom-container {
@@ -121,31 +114,51 @@ a:hover {
 
 .pages {
   font-family: 'Ubuntu', sans-serif;
-  color: #C0C1C6;
+  color: white;
   line-height: 2;
   margin: auto;
   text-align: justify;
 }
 
-.paragraph-carousel {
+.copyright-bar-items-h3 {
   font-family: 'Ubuntu', sans-serif;
-  color: #C0C1C6;
-  line-height: 2;
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
   margin: auto;
   text-align: justify;
-  padding: 9% 15% 9% 15%;
 }
+
+.copyright-bar-items-p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  margin-top: 3%;
+  text-align: justify;
+}
+
+.copyright-icon {
+  color: white;
+}
+
+
 
 #title {
   background-color: #ff4c68;
 }
 
 #features {
-  padding: 7% 15%;
+  padding: 7% 15% 3% 15%;
 }
 
 #copyright {
-  font-size: 11px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
   color: white;
-  font-family: sans-serif;
+  margin-top: 3%;
+  text-align: center;
 }
