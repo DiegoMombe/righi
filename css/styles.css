@@ -42,6 +42,11 @@ a:hover {
   text-style: underline;
 }
 
+.selected-nav-item {
+  color: white;
+  text-style: underline;
+}
+
 .h2-home {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bolder;
