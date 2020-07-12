@@ -140,6 +140,30 @@
         <p class="copyright-bar-items-p"><i class="copyright-icon fa fa-envelope" aria-hidden="true"></i><a href="mailto:mombelli@mombelligroup.it"> mombelli@mombelligroup.it</a></p>
       </div>
     </div>
+    <div class="button-bottom-container">
+      <button class="btn" onclick="topFunction()" id="myBtn" title="Go to top"><i class="awards-icon bottom-icon fa fa-arrow-up fa-2x" aria-hidden="true"></i></button>
+    </div>
+
+    <script>
+      var mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function() {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
     <p id="copyright">© 2020 <a href="index.html">Righi SRL</a></p>
   </div>
 

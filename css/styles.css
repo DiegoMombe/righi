@@ -38,7 +38,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #db005f;
+  color: white;
+  text-style: underline;
 }
 
 .h2-home {
@@ -84,6 +85,7 @@ a:hover {
 .nav-link:hover {
   font-size: 1.2rem;
   color: white;
+  text-decoration: underline;
 }
 
 .photo-title-carousel {
@@ -145,7 +147,24 @@ a:hover {
   color: white;
 }
 
+.button-bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.btn {
+  margin: 0;
+  text-align: center;
+}
+
+.bottom-icon {
+  color: white;
+}
+
+.bottom-icon:hover {
+  color: white;
+}
 
 #title {
   background-color: #ff4c68;
