@@ -39,12 +39,10 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: white;
-  text-style: underline;
 }
 
-.selected-nav-item {
-  color: white;
-  text-style: underline;
+form {
+  padding: 9%;
 }
 
 .h2-home {
@@ -55,6 +53,21 @@ a:hover {
   line-height: 1.5;
   margin: auto;
   margin-bottom: 90px;
+}
+
+.link-page {
+  text-align: center;
+}
+
+.pages-paragraph {
+  text-align: justify;
+  color: black;
+  padding-right: 9%;
+}
+
+.key-words {
+  color: #ff4c68;
+  font-weight: bold;
 }
 
 .photo-title-carousel {
@@ -169,6 +182,19 @@ a:hover {
 
 .bottom-icon:hover {
   color: white;
+}
+
+.btn {
+  background-color: #ff4c68;
+  color: white;
+  border: none;
+  width: 9%;
+}
+
+.btn:hover {
+  background-color: #db005f;
+  color: white;
+  border: none;
 }
 
 #title {
