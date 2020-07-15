@@ -184,14 +184,14 @@ form {
   color: white;
 }
 
-.btn {
+.btn-sign-in {
   background-color: #ff4c68;
   color: white;
   border: none;
   width: 9%;
 }
 
-.btn:hover {
+.btn-sign-in:hover {
   background-color: #db005f;
   color: white;
   border: none;
