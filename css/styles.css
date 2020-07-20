@@ -148,7 +148,7 @@ form {
   line-height: 1.5;
   color: white;
   margin: auto;
-  text-align: justify;
+  text-align: center;
 }
 
 .copyright-bar-items-p {
@@ -172,7 +172,7 @@ form {
 }
 
 .btn {
-  margin: 0;
+  margin: 19px 0px 0px 0px;
   text-align: center;
 }
 
@@ -191,10 +191,15 @@ form {
   width: 9%;
 }
 
-.btn-sign-in:hover {
+.btn-send:hover {
   background-color: #db005f;
   color: white;
   border: none;
+}
+
+.contact-us-row {
+  border: 2px solid white;
+  border-radius: 1%;
 }
 
 #title {
