@@ -224,14 +224,22 @@ form {
   }
 
   .navbar {
-    padding: 5% 3%;
+    padding: 8% 3%;
   }
 
   h1 {
-    padding: 3%;
+    padding: 6%;
+    font-size: 4rem;
   }
 
   h2 {
-    padding: 3%;
+    padding: 5%;
+  }
+
+  .btn-send {
+    background-color: #ff4c68;
+    color: white;
+    border: none;
+    width: 100%;
   }
 }
