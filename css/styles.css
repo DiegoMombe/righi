@@ -10,6 +10,7 @@ h1 {
   color: white;
   line-height: 1.5;
   margin: auto;
+  padding-bottom: 6%;
 }
 
 h3 {
@@ -45,11 +46,15 @@ form {
   padding: 9%;
 }
 
+.active-link:link {
+  color: white !important;
+}
+
 .h2-home {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bolder;
   font-size: 1.5rem;
-  color: #d8d8d8;
+  color: #ffffff80;
   line-height: 1.5;
   margin: auto;
   margin-bottom: 90px;
@@ -73,8 +78,7 @@ form {
 .photo-title-carousel {
   width: 100%;
   height: 290px;
-  border-radius: 1%;
-  border: 3px solid white;
+  border: 1px solid white;
 }
 
 .container-fluid {
@@ -197,11 +201,6 @@ form {
   border: none;
 }
 
-.contact-us-row {
-  border: 2px solid white;
-  border-radius: 1%;
-}
-
 #title {
   background-color: #ff4c68;
 }
@@ -217,4 +216,22 @@ form {
   color: white;
   margin-top: 3%;
   text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+  .cnt {
+    padding: 0%;
+  }
+
+  .navbar {
+    padding: 5% 3%;
+  }
+
+  h1 {
+    padding: 3%;
+  }
+
+  h2 {
+    padding: 3%;
+  }
 }

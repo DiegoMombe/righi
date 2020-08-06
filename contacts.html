@@ -55,7 +55,7 @@
                             <a class="nav-link" href="demolizioni.html">Demolizioni</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacts.html">Contattaci</a>
+                            <a class="nav-link active-link" href="contacts.html">Contattaci</a>
                         </li>
                     </ul>
                 </div>
@@ -66,7 +66,6 @@
 
             <div class="link-page">
                 <h1><i class="fa fa-phone" aria-hidden="true"></i> Contattaci</h1>
-                <h2 class="h2-home">Quando la tradizione incontra l'innovazione</h2>
             </div>
         </div>
 
@@ -75,15 +74,18 @@
     <!-- Contact Us form -->
 
     <section id="form-contact-us">
-        <form>
+        <form action="https://getform.io/f/f262c274-b576-47e4-9f25-75137cab2096" method="POST">
+
             <div class="form-row">
                 <div class="form-group col-lg-4">
                     <label for="inputEmail4" class="key-words">Nome</label>
-                    <input type="text" class="form-control" id="inputEmail4" placeholder="Nome" name="name">
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Nome" name="name"
+                        required>
                 </div>
                 <div class="form-group col-lg-4">
                     <label for="inputEmail4" class="key-words">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" name="email">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" name="email"
+                        required>
                 </div>
                 <div class="form-group col-lg-4">
                     <label for="inputState" class="key-words">Servizio</label>
@@ -99,7 +101,8 @@
             <div class="form-group">
                 <label for="exampleFormControlTextarea5" class="key-words">Specifica al meglio le tue esigenze:</label>
                 <textarea class="form-control" id="exampleFormControlTextarea5" rows="9"
-                    placeholder="Scrivi qui il messaggio che ci vuoi far pervenire!" name="text"></textarea>
+                    placeholder="Scrivi qui il messaggio che ci vuoi far pervenire!" name="text"
+                    required></textarea>
             </div>
             <button type="submit" class="btn btn-outline-primary btn-send" aria-pressed="true"
                 name="send_message_btn">Invia</button>
@@ -110,63 +113,41 @@
 
     <section id="map">
         <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d859.5846646564038!2d10.126930829265595!3d45.3643229986937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDIxJzUxLjYiTiAxMMKwMDcnMzguOSJF!5e1!3m2!1sit!2sit!4v1594928580029!5m2!1sit!2sit"
-            width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-            tabindex="0"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d859.5846646564038!2d10.126930829265595!3d45.3643229986937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDIxJzUxLjYiTiAxMMKwMDcnMzguOSJF!5e1!3m2!1sit!2sit!4v1594928580029!5m2!1sit!2sit"
+                width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
         </div>
-      </section>
+    </section>
 
 
 
     <!-- Footer -->
 
     <div class="container-fluid bottom-container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 feature-box">
-            <h3 class="copyright-bar-items-h3">Servizi</h3>
-            <p class="copyright-bar-items-p"><a href="#">Lavori edili</a></p>
-            <p class="copyright-bar-items-p"><a href="#">Trattamento rifiuti</a></p>
-            <p class="copyright-bar-items-p"><a href="#">Demolizioni</a></p>
-          </div>
-          <div class="col-lg-6 col-md-6 feature-box">
-            <h3 class="copyright-bar-items-h3">Contattaci</h3>
-            <p class="copyright-bar-items-p"><i class="copyright-icon fa fa-phone" aria-hidden="true"></i><a
-                href="tel:+393333333333"> +39 333 333 3333</a></p>
-            <p class="copyright-bar-items-p"><i class="copyright-icon fa fa-envelope" aria-hidden="true"></i><a
-                href="mailto:mombelli@mombelligroup.it"> info@righi-srl.it</a></p>
-          </div>
+        <div class="row contact-us-row">
+            <div class="col-lg-6 col-md-6 feature-box">
+                <h3 class="copyright-bar-items-h3">Servizi</h3>
+                <p class="copyright-bar-items-p"><a href="#">Lavori edili</a></p>
+                <p class="copyright-bar-items-p"><a href="#">Trattamento rifiuti</a></p>
+                <p class="copyright-bar-items-p"><a href="#">Demolizioni</a></p>
+            </div>
+            <div class="col-lg-6 col-md-6 feature-box">
+                <h3 class="copyright-bar-items-h3">Contattaci</h3>
+                <p class="copyright-bar-items-p"><i class="copyright-icon fa fa-phone" aria-hidden="true"></i><a
+                        href="tel:+393333333333"> +39 371 323 7412</a></p>
+                <p class="copyright-bar-items-p"><i class="copyright-icon fa fa-envelope" aria-hidden="true"></i><a
+                        href="mailto:mombelli@mombelligroup.it"> info@righi-srl.it</a></p>
+            </div>
         </div>
         <div class="button-bottom-container">
-          <button class="btn" onclick="topFunction()" id="myBtn" title="Go to top"><i
-              class="awards-icon bottom-icon fa fa-arrow-up fa-2x" aria-hidden="true"></i></button>
+            <button class="btn" onclick="topFunction()" id="myBtn" title="Go to top"><i
+                    class="awards-icon bottom-icon fa fa-arrow-up fa-2x" aria-hidden="true"></i></button>
         </div>
 
-        <script>
-            var mybutton = document.getElementById("myBtn");
-
-            window.onscroll = function () {
-                scrollFunction()
-            };
-
-            function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    mybutton.style.display = "block";
-                } else {
-                    mybutton.style.display = "none";
-                }
-            }
-
-            function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-            }
-        </script>
+        <script src="index.js"></script>
         <p id="copyright">© 2020 <a href="index.html">Righi SRL</a></p>
     </div>
-
-
-
 
 </body>
 
